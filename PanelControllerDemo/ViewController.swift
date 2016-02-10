@@ -9,17 +9,46 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        print("\(__FUNCTION__) in \(self.dynamicType)")
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        print("\(__FUNCTION__) in \(self.dynamicType)")
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        print("\(__FUNCTION__) in \(self.dynamicType)")
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        print("\(__FUNCTION__) in \(self.dynamicType)")
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        print("\(__FUNCTION__) in \(self.dynamicType)")
+    }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        print("\(__FUNCTION__) in \(self.dynamicType)")
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        print("\(__FUNCTION__) in \(self.dynamicType)")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        print("\(__FUNCTION__) in \(self.dynamicType)")
     }
-
 
 }
 

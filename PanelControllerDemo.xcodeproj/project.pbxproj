@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A16D6A91C6B2D270016B2C2 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16D6A81C6B2D270016B2C2 /* UIView+AutoLayout.swift */; };
+		5A16D6AC1C6B3D590016B2C2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16D6AA1C6B3D590016B2C2 /* FirstViewController.swift */; };
+		5A16D6AD1C6B3D590016B2C2 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A16D6AB1C6B3D590016B2C2 /* FirstViewController.xib */; };
+		5A16D6B01C6B3D630016B2C2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16D6AE1C6B3D630016B2C2 /* SecondViewController.swift */; };
+		5A16D6B11C6B3D630016B2C2 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A16D6AF1C6B3D630016B2C2 /* SecondViewController.xib */; };
+		5A16D6B61C6B3D7B0016B2C2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16D6B41C6B3D7B0016B2C2 /* ThirdViewController.swift */; };
+		5A16D6B71C6B3D7B0016B2C2 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A16D6B51C6B3D7B0016B2C2 /* ThirdViewController.xib */; };
 		5A9BDB381C6A491200F884E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BDB371C6A491200F884E4 /* AppDelegate.swift */; };
 		5A9BDB3A1C6A491200F884E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BDB391C6A491200F884E4 /* ViewController.swift */; };
 		5A9BDB3F1C6A491200F884E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BDB3E1C6A491200F884E4 /* Assets.xcassets */; };
@@ -35,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A16D6A81C6B2D270016B2C2 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		5A16D6AA1C6B3D590016B2C2 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5A16D6AB1C6B3D590016B2C2 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		5A16D6AE1C6B3D630016B2C2 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5A16D6AF1C6B3D630016B2C2 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		5A16D6B41C6B3D7B0016B2C2 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		5A16D6B51C6B3D7B0016B2C2 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 		5A9BDB341C6A491200F884E4 /* PanelControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanelControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9BDB371C6A491200F884E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A9BDB391C6A491200F884E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +116,12 @@
 			children = (
 				5A9BDB371C6A491200F884E4 /* AppDelegate.swift */,
 				5A9BDB391C6A491200F884E4 /* ViewController.swift */,
+				5A16D6AA1C6B3D590016B2C2 /* FirstViewController.swift */,
+				5A16D6AB1C6B3D590016B2C2 /* FirstViewController.xib */,
+				5A16D6AE1C6B3D630016B2C2 /* SecondViewController.swift */,
+				5A16D6AF1C6B3D630016B2C2 /* SecondViewController.xib */,
+				5A16D6B41C6B3D7B0016B2C2 /* ThirdViewController.swift */,
+				5A16D6B51C6B3D7B0016B2C2 /* ThirdViewController.xib */,
 				5A9BDB3E1C6A491200F884E4 /* Assets.xcassets */,
 				5A9BDB401C6A491200F884E4 /* LaunchScreen.storyboard */,
 				5A9BDB431C6A491200F884E4 /* Info.plist */,
@@ -132,6 +152,7 @@
 			children = (
 				5A9BDB661C6A4A2900F884E4 /* PanelController.swift */,
 				5A9BDB671C6A4A2900F884E4 /* PanelController.xib */,
+				5A16D6A81C6B2D270016B2C2 /* UIView+AutoLayout.swift */,
 			);
 			path = PanelController;
 			sourceTree = "<group>";
@@ -242,7 +263,10 @@
 			files = (
 				5A9BDB691C6A4A2900F884E4 /* PanelController.xib in Resources */,
 				5A9BDB421C6A491200F884E4 /* LaunchScreen.storyboard in Resources */,
+				5A16D6B71C6B3D7B0016B2C2 /* ThirdViewController.xib in Resources */,
 				5A9BDB3F1C6A491200F884E4 /* Assets.xcassets in Resources */,
+				5A16D6AD1C6B3D590016B2C2 /* FirstViewController.xib in Resources */,
+				5A16D6B11C6B3D630016B2C2 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A16D6B01C6B3D630016B2C2 /* SecondViewController.swift in Sources */,
+				5A16D6AC1C6B3D590016B2C2 /* FirstViewController.swift in Sources */,
 				5A9BDB681C6A4A2900F884E4 /* PanelController.swift in Sources */,
+				5A16D6B61C6B3D7B0016B2C2 /* ThirdViewController.swift in Sources */,
+				5A16D6A91C6B2D270016B2C2 /* UIView+AutoLayout.swift in Sources */,
 				5A9BDB3A1C6A491200F884E4 /* ViewController.swift in Sources */,
 				5A9BDB381C6A491200F884E4 /* AppDelegate.swift in Sources */,
 			);
@@ -488,6 +516,7 @@
 				5A9BDB5E1C6A491300F884E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A9BDB5F1C6A491300F884E4 /* Build configuration list for PBXNativeTarget "PanelControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +525,7 @@
 				5A9BDB611C6A491300F884E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A9BDB621C6A491300F884E4 /* Build configuration list for PBXNativeTarget "PanelControllerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +534,7 @@
 				5A9BDB641C6A491300F884E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

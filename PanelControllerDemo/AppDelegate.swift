@@ -16,12 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        let redController = UIViewController()
-        redController.view.backgroundColor = UIColor.redColor()
-        
         self.window = UIWindow()
         
-        self.window?.rootViewController = PanelController(mainController: redController)
+        self.window?.rootViewController = PanelController(mainController: FirstViewController(), leftController: SecondViewController(), rightController: ThirdViewController())
         
         self.window?.makeKeyAndVisible()
         
