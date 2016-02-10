@@ -14,6 +14,7 @@
 		5A16D6B11C6B3D630016B2C2 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A16D6AF1C6B3D630016B2C2 /* SecondViewController.xib */; };
 		5A16D6B61C6B3D7B0016B2C2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16D6B41C6B3D7B0016B2C2 /* ThirdViewController.swift */; };
 		5A16D6B71C6B3D7B0016B2C2 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A16D6B51C6B3D7B0016B2C2 /* ThirdViewController.xib */; };
+		5A16D6B91C6B40670016B2C2 /* UIViewController+PanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16D6B81C6B40670016B2C2 /* UIViewController+PanelController.swift */; };
 		5A9BDB381C6A491200F884E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BDB371C6A491200F884E4 /* AppDelegate.swift */; };
 		5A9BDB3A1C6A491200F884E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BDB391C6A491200F884E4 /* ViewController.swift */; };
 		5A9BDB3F1C6A491200F884E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BDB3E1C6A491200F884E4 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 		5A16D6AF1C6B3D630016B2C2 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		5A16D6B41C6B3D7B0016B2C2 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		5A16D6B51C6B3D7B0016B2C2 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		5A16D6B81C6B40670016B2C2 /* UIViewController+PanelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+PanelController.swift"; sourceTree = "<group>"; };
 		5A9BDB341C6A491200F884E4 /* PanelControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanelControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9BDB371C6A491200F884E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A9BDB391C6A491200F884E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				5A9BDB661C6A4A2900F884E4 /* PanelController.swift */,
 				5A9BDB671C6A4A2900F884E4 /* PanelController.xib */,
 				5A16D6A81C6B2D270016B2C2 /* UIView+AutoLayout.swift */,
+				5A16D6B81C6B40670016B2C2 /* UIViewController+PanelController.swift */,
 			);
 			path = PanelController;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				5A9BDB681C6A4A2900F884E4 /* PanelController.swift in Sources */,
 				5A16D6B61C6B3D7B0016B2C2 /* ThirdViewController.swift in Sources */,
 				5A16D6A91C6B2D270016B2C2 /* UIView+AutoLayout.swift in Sources */,
+				5A16D6B91C6B40670016B2C2 /* UIViewController+PanelController.swift in Sources */,
 				5A9BDB3A1C6A491200F884E4 /* ViewController.swift in Sources */,
 				5A9BDB381C6A491200F884E4 /* AppDelegate.swift in Sources */,
 			);
