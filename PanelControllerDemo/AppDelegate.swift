@@ -15,7 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        self.window = UIWindow()
+        
+        let rootController = PanelController(mainController: FirstViewController(), leftController: SecondViewController(), rightController: ThirdViewController())
+        rootController.layoutAnimationsDuration = 0.5
+        
+        self.window?.rootViewController = rootController
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
