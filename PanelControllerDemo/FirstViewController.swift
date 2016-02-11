@@ -12,8 +12,6 @@ class FirstViewController: ViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,7 +21,6 @@ class FirstViewController: ViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        self.preferredContentSize = CGSize(width: 400, height: 300)
     }
     
 

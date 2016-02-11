@@ -15,17 +15,17 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sd0-CX-RDr">
-                    <rect key="frame" x="283" y="289" width="34" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MhS-Z1-s70">
+                    <rect key="frame" x="8" y="8" width="584" height="584"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="Sd0-CX-RDr" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="QFl-re-IKB"/>
-                <constraint firstItem="Sd0-CX-RDr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wdg-R8-vyG"/>
+                <constraint firstAttribute="bottom" secondItem="MhS-Z1-s70" secondAttribute="bottom" constant="8" id="7Sh-m1-JAI"/>
+                <constraint firstItem="MhS-Z1-s70" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="Ay5-mc-LwY"/>
+                <constraint firstAttribute="trailing" secondItem="MhS-Z1-s70" secondAttribute="trailing" constant="8" id="U9h-uF-X8h"/>
+                <constraint firstItem="MhS-Z1-s70" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="eSQ-ME-ydz"/>
             </constraints>
         </view>
     </objects>

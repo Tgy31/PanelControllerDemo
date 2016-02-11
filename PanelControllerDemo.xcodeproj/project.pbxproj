@@ -15,6 +15,8 @@
 		5A16D6B61C6B3D7B0016B2C2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16D6B41C6B3D7B0016B2C2 /* ThirdViewController.swift */; };
 		5A16D6B71C6B3D7B0016B2C2 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A16D6B51C6B3D7B0016B2C2 /* ThirdViewController.xib */; };
 		5A16D6B91C6B40670016B2C2 /* UIViewController+PanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16D6B81C6B40670016B2C2 /* UIViewController+PanelController.swift */; };
+		5A81A87B1C6B842900ABFEA4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A81A87A1C6B842900ABFEA4 /* Utils.swift */; };
+		5A81A87D1C6B9C1700ABFEA4 /* PanelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A81A87C1C6B9C1700ABFEA4 /* PanelController.xib */; };
 		5A9BDB381C6A491200F884E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BDB371C6A491200F884E4 /* AppDelegate.swift */; };
 		5A9BDB3A1C6A491200F884E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BDB391C6A491200F884E4 /* ViewController.swift */; };
 		5A9BDB3F1C6A491200F884E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BDB3E1C6A491200F884E4 /* Assets.xcassets */; };
@@ -22,7 +24,6 @@
 		5A9BDB4D1C6A491300F884E4 /* PanelControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BDB4C1C6A491300F884E4 /* PanelControllerDemoTests.swift */; };
 		5A9BDB581C6A491300F884E4 /* PanelControllerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BDB571C6A491300F884E4 /* PanelControllerDemoUITests.swift */; };
 		5A9BDB681C6A4A2900F884E4 /* PanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BDB661C6A4A2900F884E4 /* PanelController.swift */; };
-		5A9BDB691C6A4A2900F884E4 /* PanelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BDB671C6A4A2900F884E4 /* PanelController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5A16D6B41C6B3D7B0016B2C2 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		5A16D6B51C6B3D7B0016B2C2 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 		5A16D6B81C6B40670016B2C2 /* UIViewController+PanelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+PanelController.swift"; sourceTree = "<group>"; };
+		5A81A87A1C6B842900ABFEA4 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		5A81A87C1C6B9C1700ABFEA4 /* PanelController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanelController.xib; sourceTree = "<group>"; };
 		5A9BDB341C6A491200F884E4 /* PanelControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanelControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9BDB371C6A491200F884E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A9BDB391C6A491200F884E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +67,6 @@
 		5A9BDB571C6A491300F884E4 /* PanelControllerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelControllerDemoUITests.swift; sourceTree = "<group>"; };
 		5A9BDB591C6A491300F884E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A9BDB661C6A4A2900F884E4 /* PanelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelController.swift; sourceTree = "<group>"; };
-		5A9BDB671C6A4A2900F884E4 /* PanelController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanelController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				5A16D6AF1C6B3D630016B2C2 /* SecondViewController.xib */,
 				5A16D6B41C6B3D7B0016B2C2 /* ThirdViewController.swift */,
 				5A16D6B51C6B3D7B0016B2C2 /* ThirdViewController.xib */,
+				5A81A87A1C6B842900ABFEA4 /* Utils.swift */,
 				5A9BDB3E1C6A491200F884E4 /* Assets.xcassets */,
 				5A9BDB401C6A491200F884E4 /* LaunchScreen.storyboard */,
 				5A9BDB431C6A491200F884E4 /* Info.plist */,
@@ -153,7 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				5A9BDB661C6A4A2900F884E4 /* PanelController.swift */,
-				5A9BDB671C6A4A2900F884E4 /* PanelController.xib */,
+				5A81A87C1C6B9C1700ABFEA4 /* PanelController.xib */,
 				5A16D6A81C6B2D270016B2C2 /* UIView+AutoLayout.swift */,
 				5A16D6B81C6B40670016B2C2 /* UIViewController+PanelController.swift */,
 			);
@@ -264,11 +267,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A9BDB691C6A4A2900F884E4 /* PanelController.xib in Resources */,
 				5A9BDB421C6A491200F884E4 /* LaunchScreen.storyboard in Resources */,
 				5A16D6B71C6B3D7B0016B2C2 /* ThirdViewController.xib in Resources */,
 				5A9BDB3F1C6A491200F884E4 /* Assets.xcassets in Resources */,
 				5A16D6AD1C6B3D590016B2C2 /* FirstViewController.xib in Resources */,
+				5A81A87D1C6B9C1700ABFEA4 /* PanelController.xib in Resources */,
 				5A16D6B11C6B3D630016B2C2 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +299,7 @@
 			files = (
 				5A16D6B01C6B3D630016B2C2 /* SecondViewController.swift in Sources */,
 				5A16D6AC1C6B3D590016B2C2 /* FirstViewController.swift in Sources */,
+				5A81A87B1C6B842900ABFEA4 /* Utils.swift in Sources */,
 				5A9BDB681C6A4A2900F884E4 /* PanelController.swift in Sources */,
 				5A16D6B61C6B3D7B0016B2C2 /* ThirdViewController.swift in Sources */,
 				5A16D6A91C6B2D270016B2C2 /* UIView+AutoLayout.swift in Sources */,

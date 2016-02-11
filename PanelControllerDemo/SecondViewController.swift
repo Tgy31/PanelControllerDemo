@@ -13,7 +13,21 @@ class SecondViewController: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let ping = 3.0
+        func big() {
+            delay(ping) { () -> () in
+                self.preferredContentSize = CGSize(width: 200, height: 1000)
+                small()
+            }
+        }
+        func small() {
+            delay(ping) { () -> () in
+                self.preferredContentSize = CGSize(width: 400, height: 1000)
+                big()
+            }
+        }
+        
+        delay(1.0, block: big)
     }
 
     override func didReceiveMemoryWarning() {
