@@ -18,8 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.window = UIWindow()
         
-        self.window?.rootViewController = PanelController(mainController: FirstViewController(), leftController: SecondViewController(), rightController: ThirdViewController())
+        let rootController = PanelController(mainController: FirstViewController(), leftController: SecondViewController(), rightController: ThirdViewController())
+        rootController.layoutAnimationsDuration = 0.5
         
+        self.window?.rootViewController = rootController
         self.window?.makeKeyAndVisible()
         
         return true

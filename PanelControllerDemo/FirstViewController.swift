@@ -8,10 +8,12 @@
 
 import UIKit
 
-class FirstViewController: ViewController {
+class FirstViewController: ViewController, PanelControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.panelController?.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,17 +23,40 @@ class FirstViewController: ViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
+        
+        let duration = 2.0
+        func open () {
+            delay(duration) { () -> () in
+                self.panelController?.setPanels([.Left, .Right], .Opened)
+                close()
+            }
+        }
+        
+        func close() {
+            
+            delay(duration) { () -> () in
+                self.panelController?.setPanels([.Left, .Right], .Closed)
+                open()
+            }
+        }
+        
+        close()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    internal func panelController(panelController: PanelController, willChangePanel side: PanelController.PanelSide, toState state: PanelController.PanelState) {
+        print("\(__FUNCTION__) in \(self.dynamicType)")
     }
-    */
+    
+    internal func panelController(panelController: PanelController, didChangePanel side: PanelController.PanelSide, toState state: PanelController.PanelState) {
+        print("\(__FUNCTION__) in \(self.dynamicType)")
+    }
+    
+    internal func panelController(panelController: PanelController, willChangeSizeOfPanel side: PanelController.PanelSide) {
+        print("\(__FUNCTION__) in \(self.dynamicType)")
+    }
+    
+    internal func panelController(panelController: PanelController, didChangeSizeOfPanel side: PanelController.PanelSide) {
+        print("\(__FUNCTION__) in \(self.dynamicType)")
+    }
 
 }
