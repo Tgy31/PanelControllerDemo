@@ -44,19 +44,19 @@ class FirstViewController: ViewController, PanelControllerDelegate {
     }
     
     internal func panelController(panelController: PanelController, willChangePanel side: PanelController.PanelSide, toState state: PanelController.PanelState) {
-        print("\(__FUNCTION__) in \(self.dynamicType)")
+        print("\(#function) in \(self.dynamicType)")
     }
     
     internal func panelController(panelController: PanelController, didChangePanel side: PanelController.PanelSide, toState state: PanelController.PanelState) {
-        print("\(__FUNCTION__) in \(self.dynamicType)")
+        print("\(#function) in \(self.dynamicType)")
     }
     
     internal func panelController(panelController: PanelController, willChangeSizeOfPanel side: PanelController.PanelSide) {
-        print("\(__FUNCTION__) in \(self.dynamicType)")
+        print("\(#function) in \(self.dynamicType)")
     }
     
     internal func panelController(panelController: PanelController, didChangeSizeOfPanel side: PanelController.PanelSide) {
-        print("\(__FUNCTION__) in \(self.dynamicType)")
+        print("\(#function) in \(self.dynamicType)")
     }
 
 }
