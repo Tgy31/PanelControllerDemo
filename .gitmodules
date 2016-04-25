@@ -1,3 +1,3 @@
 [submodule "PanelController"]
 	path = PanelController
-	url = git@git.heva.local:thelesbeux/PanelController.git
+	url = git@git.heva.local:iOS_Components/PanelController.git

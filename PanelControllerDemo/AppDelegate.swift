@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.window = UIWindow()
         
-        let rootController = PanelController(mainController: FirstViewController(), leftController: SecondViewController(), rightController: ThirdViewController())
+        let rootController = PanelController(centerController: FirstViewController(), leftController: SecondViewController(), rightController: ThirdViewController())
         rootController.layoutAnimationsDuration = 0.5
         
         self.window?.rootViewController = rootController
