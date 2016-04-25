@@ -27,7 +27,7 @@ class FirstViewController: ViewController, PanelControllerDelegate {
         let duration = 2.0
         func open () {
             delay(duration) { () -> () in
-                self.panelController?.setPanels([.Left, .Right], .Opened)
+                self.panelController?.setPanels([.Left, .Right], .Opened, animated: true)
                 close()
             }
         }
@@ -35,7 +35,7 @@ class FirstViewController: ViewController, PanelControllerDelegate {
         func close() {
             
             delay(duration) { () -> () in
-                self.panelController?.setPanels([.Left, .Right], .Closed)
+                self.panelController?.setPanels([.Left, .Right], .Closed, animated: true)
                 open()
             }
         }
